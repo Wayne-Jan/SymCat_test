@@ -1,0 +1,365 @@
+{
+  "crops": [
+    { "id": "CRP01", "description": "葡萄 (Grape)" },
+    { "id": "CRP02", "description": "稻米 (Rice)" },
+    { "id": "CRP03", "description": "茶 (Tea)" }
+  ],
+  "parts": [
+    { "id": "POS01", "description": "葉子 (Leaf)" },
+    { "id": "POS02", "description": "果實 (Fruit)" },
+    { "id": "POS03", "description": "莖 (Stem)" },
+    { "id": "POS04", "description": "穗 (Panicle)" },
+    { "id": "POS05", "description": "嫩芽 (Shoot)" },
+    { "id": "POS06", "description": "根 (Root)" },
+    { "id": "POS07", "description": "葉鞘 (Sheath)" },
+    { "id": "POS08", "description": "整株植物 (Whole Plant)" }
+  ],
+  "symptomCategories": [
+    {
+      "id": "SYM_CAT_01",
+      "description": "葉斑/病斑 (Leaf Spot/Lesion)",
+      "tags": [
+        { "id": "SYM_TAG_0101", "description": "白色病斑 (White Lesion/Spot)" },
+        {
+          "id": "SYM_TAG_0102",
+          "description": "黃色/黃綠色病斑 (Yellow/Yellowish-Green Lesion/Spot)"
+        },
+        {
+          "id": "SYM_TAG_0103",
+          "description": "褐色/紅褐色/暗褐色病斑 (Brown/Reddish-Brown/Dark Brown Lesion/Spot)"
+        },
+        {
+          "id": "SYM_TAG_0104",
+          "description": "灰白色病斑 (Grayish-White Lesion/Spot)"
+        },
+        {
+          "id": "SYM_TAG_0105",
+          "description": "灰綠色/墨綠色病斑 (Grayish-Green/Dark Green Lesion/Spot)"
+        },
+        {
+          "id": "SYM_TAG_0106",
+          "description": "水浸狀病斑 (Water-soaked Lesion)"
+        },
+        { "id": "SYM_TAG_0107", "description": "油狀斑 (Oily Spot)" },
+        {
+          "id": "SYM_TAG_0108",
+          "description": "細點狀/針點狀病斑 (Speckled/Pinpoint Lesion)"
+        },
+        {
+          "id": "SYM_TAG_0109",
+          "description": "紡錘形病斑 (Spindle-shaped Lesion)"
+        },
+        { "id": "SYM_TAG_0110", "description": "圓形病斑 (Round Lesion)" },
+        { "id": "SYM_TAG_0111", "description": "塊狀病斑 (Patchy Lesion)" },
+        {
+          "id": "SYM_TAG_0112",
+          "description": "條斑狀病斑 (Stripe/Streak Lesion)"
+        },
+        {
+          "id": "SYM_TAG_0113",
+          "description": "網紋狀病斑 (Net-like/Reticulated Lesion)"
+        },
+        {
+          "id": "SYM_TAG_0114",
+          "description": "雲紋狀/虎斑狀/不規則病斑 (Cloud-like/Tiger-stripe/Irregular Lesion)"
+        },
+        {
+          "id": "SYM_TAG_0115",
+          "description": "鳥眼狀病斑 (Bird's Eye Lesion)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_02",
+      "description": "病斑周圍特徵 (Lesion Borders/Halos)",
+      "tags": [
+        {
+          "id": "SYM_TAG_0201",
+          "description": "病斑邊緣褐化/深色 (Lesion Border Browning/Darkening)"
+        },
+        {
+          "id": "SYM_TAG_0202",
+          "description": "病斑周圍黃暈 (Yellow Halo around Lesion)"
+        },
+        {
+          "id": "SYM_TAG_0203",
+          "description": "病斑中央灰白/壞死 (Lesion Center Grayish-White/Necrotic)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_03",
+      "description": "葉色變化 (Leaf Color Change)",
+      "tags": [
+        {
+          "id": "SYM_TAG_0301",
+          "description": "葉片黃化 (Leaf Yellowing/Chlorosis)"
+        },
+        { "id": "SYM_TAG_0302", "description": "葉片白化 (Leaf Whitening)" },
+        {
+          "id": "SYM_TAG_0303",
+          "description": "葉尖黃白/蒼白 (Leaf Tip Yellowish-White/Pale)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_04",
+      "description": "葉片組織損傷 (Leaf Tissue Damage)",
+      "tags": [
+        {
+          "id": "SYM_TAG_0401",
+          "description": "葉片枯萎/乾枯 (Leaf Wilting/Drying/Necrosis)"
+        },
+        {
+          "id": "SYM_TAG_0402",
+          "description": "葉片穿孔/破裂 (Leaf Shot Hole/Perforation)"
+        },
+        {
+          "id": "SYM_TAG_0403",
+          "description": "葉緣焦枯 (Leaf Margin Scorch)"
+        },
+        { "id": "SYM_TAG_0404", "description": "葉片大面積壞死 (Leaf Blight)" },
+        {
+          "id": "SYM_TAG_0405",
+          "description": "葉片皺縮 (Leaf Crinkling/Wrinkling)"
+        },
+        {
+          "id": "SYM_TAG_0406",
+          "description": "葉尖斷裂/脫落 (Leaf Tip Breakage/Shedding)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_05",
+      "description": "葉片變形 (Leaf Deformation)",
+      "tags": [
+        {
+          "id": "SYM_TAG_0501",
+          "description": "葉片扭曲/變形 (Leaf Distortion/Twisting)"
+        },
+        { "id": "SYM_TAG_0502", "description": "葉片短小 (Leaf Shortening)" },
+        { "id": "SYM_TAG_0503", "description": "葉幅變小 (Narrow Leaf Blade)" }
+      ]
+    },
+    {
+      "id": "SYM_CAT_06",
+      "description": "葉面附著物/生長物 (Substances/Growths on Leaf Surface)",
+      "tags": [
+        {
+          "id": "SYM_TAG_0601",
+          "description": "白色黴狀物/粉狀物 (White Moldy/Powdery Growth)"
+        },
+        {
+          "id": "SYM_TAG_0602",
+          "description": "黃色粉狀物 (Yellow Powdery Growth)"
+        },
+        {
+          "id": "SYM_TAG_0603",
+          "description": "黑色黴狀物/絨毛狀/煤煙狀 (Black Moldy/Velvety/Sooty Growth)"
+        },
+        {
+          "id": "SYM_TAG_0604",
+          "description": "橘紅色/黃色柵狀物 (Orange/Yellow Palisade-like Growth)"
+        },
+        { "id": "SYM_TAG_0605", "description": "菌核 (Sclerotia)" },
+        { "id": "SYM_TAG_0606", "description": "菌泥 (Bacterial Ooze)" },
+        {
+          "id": "SYM_TAG_0607",
+          "description": "黑色小點/孢子堆 (Black Dots/Spore Clusters)"
+        },
+        {
+          "id": "SYM_TAG_0608",
+          "description": "粉紅/橘紅色孢子堆 (Pink/Orange Spore Clusters)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_07",
+      "description": "莖節/穗頸/枝條病變 (Node/Neck/Shoot Lesion)",
+      "tags": [
+        {
+          "id": "SYM_TAG_0701",
+          "description": "莖節褐變/黑變 (Stem Node Browning/Blackening)"
+        },
+        {
+          "id": "SYM_TAG_0702",
+          "description": "穗頸/枝梗病斑 (Panicle Neck/Branch Lesion)"
+        },
+        {
+          "id": "SYM_TAG_0703",
+          "description": "枝條瘡痂狀凹陷 (Shoot Scab-like Sunken Lesion)"
+        },
+        {
+          "id": "SYM_TAG_0704",
+          "description": "枝條變色 (Shoot Discoloration)"
+        },
+        {
+          "id": "SYM_TAG_0705",
+          "description": "枝條潰瘍/開裂 (Shoot Canker/Cracking)"
+        },
+        { "id": "SYM_TAG_0706", "description": "枝條變形 (Shoot Distortion)" },
+        { "id": "SYM_TAG_0707", "description": "枝條枯死 (Shoot Dieback)" }
+      ]
+    },
+    {
+      "id": "SYM_CAT_08",
+      "description": "葉鞘病變 (Sheath Lesion)",
+      "tags": [
+        {
+          "id": "SYM_TAG_0801",
+          "description": "葉鞘水浸狀/灰綠/灰白褐邊病斑 (Sheath Water-soaked/Grayish-Green/Gray-White Brown-Border Lesion)"
+        },
+        {
+          "id": "SYM_TAG_0802",
+          "description": "葉鞘褐變/枯死 (Sheath Browning/Necrosis)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_09",
+      "description": "莖/枝條附著物/生長物 (Substances/Growths on Stem/Shoot)",
+      "tags": [
+        {
+          "id": "SYM_TAG_0901",
+          "description": "莖節不定根 (Adventitious Roots on Node)"
+        },
+        {
+          "id": "SYM_TAG_0902",
+          "description": "枝條白色粉狀物 (White Powdery Growth on Shoot)"
+        },
+        {
+          "id": "SYM_TAG_0903",
+          "description": "枝條白色黴狀物 (White Moldy Growth on Shoot)"
+        },
+        {
+          "id": "SYM_TAG_0904",
+          "description": "莖/葉鞘白粉紅色菌絲層 (Pinkish-White Mycelial Layer on Stem/Sheath)"
+        },
+        {
+          "id": "SYM_TAG_0905",
+          "description": "枝條黑色菌索/絲狀物 (Black Mycelial Strands/Rhizomorphs on Shoot)"
+        },
+        {
+          "id": "SYM_TAG_0906",
+          "description": "枝條黑色煤煙狀物 (Black Sooty Growth on Shoot)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_10",
+      "description": "果實/穀粒斑點/病斑 (Fruit/Grain Spot/Lesion)",
+      "tags": [
+        {
+          "id": "SYM_TAG_1001",
+          "description": "黑色細點/針點 (Fruit/Grain Black Specks/Pinpoints)"
+        },
+        {
+          "id": "SYM_TAG_1002",
+          "description": "黑色壞疽斑/瘡痂 (Fruit/Grain Black Necrotic Spot/Scab)"
+        },
+        {
+          "id": "SYM_TAG_1003",
+          "description": "暗褐色/黑褐色斑點 (Fruit/Grain Dark Brown/Blackish-Brown Spot)"
+        },
+        {
+          "id": "SYM_TAG_1004",
+          "description": "網紋狀病斑 (Fruit Reticulated/Net-like Lesion)"
+        },
+        {
+          "id": "SYM_TAG_1005",
+          "description": "鳥眼狀病斑 (Fruit Bird's Eye Lesion)"
+        },
+        {
+          "id": "SYM_TAG_1006",
+          "description": "污綠色病斑 (Fruit Dirty Green Lesion)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_11",
+      "description": "果實/穀粒腐爛/變質 (Fruit Rot/Deterioration)",
+      "tags": [
+        { "id": "SYM_TAG_1101", "description": "軟腐 (Fruit Soft Rot)" },
+        { "id": "SYM_TAG_1102", "description": "褐腐 (Fruit Brown Rot)" },
+        {
+          "id": "SYM_TAG_1103",
+          "description": "乾枯/木乃伊化 (Fruit Shriveling/Mummification)"
+        },
+        { "id": "SYM_TAG_1104", "description": "龜裂 (Fruit/Grain Cracking)" },
+        { "id": "SYM_TAG_1105", "description": "流汁 (Fruit Oozing)" },
+        {
+          "id": "SYM_TAG_1106",
+          "description": "畸形/不飽滿/空粒 (Grain Deformed/Unfilled/Empty)"
+        },
+        { "id": "SYM_TAG_1107", "description": "變色 (Grain Discoloration)" }
+      ]
+    },
+    {
+      "id": "SYM_CAT_12",
+      "description": "果實/穀粒附著物/生長物 (Substances/Growths on Fruit/Grain)",
+      "tags": [
+        {
+          "id": "SYM_TAG_1201",
+          "description": "粉紅/橘紅色孢子堆 (Pink/Orange Spore Masses on Fruit)"
+        },
+        {
+          "id": "SYM_TAG_1202",
+          "description": "白色粉狀物 (White Powdery Growth on Fruit)"
+        },
+        {
+          "id": "SYM_TAG_1203",
+          "description": "白色黴狀物 (White Moldy Growth on Fruit)"
+        },
+        {
+          "id": "SYM_TAG_1204",
+          "description": "黑色孢子堆/黏狀物 (Black Spore Clusters/Slimy Mass on Fruit)"
+        },
+        {
+          "id": "SYM_TAG_1205",
+          "description": "穀粒白粉紅色孢子 (Pinkish-White Spores on Grain)"
+        },
+        {
+          "id": "SYM_TAG_1207",
+          "description": "穀粒橘孢子 (Orange Spores on Grain)"
+        }
+      ]
+    },
+    {
+      "id": "SYM_CAT_13",
+      "description": "生長異常 (Growth Abnormalities)",
+      "tags": [
+        {
+          "id": "SYM_TAG_1301",
+          "description": "植株矮化 (Plant Dwarfing/Stunting)"
+        },
+        {
+          "id": "SYM_TAG_1302",
+          "description": "植株徒長 (Excessive Elongation)"
+        },
+        { "id": "SYM_TAG_1303", "description": "植株枯死 (Plant Death)" }
+      ]
+    },
+    {
+      "id": "SYM_CAT_14",
+      "description": "落葉/落果 (Defoliation/Fruit Drop)",
+      "tags": [
+        { "id": "SYM_TAG_1401", "description": "落葉 (Defoliation)" },
+        { "id": "SYM_TAG_1402", "description": "落果 (Fruit Drop)" }
+      ]
+    },
+    {
+      "id": "SYM_CAT_15",
+      "description": "發育異常 (Developmental Abnormalities)",
+      "tags": [
+        {
+          "id": "SYM_TAG_1501",
+          "description": "抽穗不良/延遲 (Poor/Delayed Heading)"
+        },
+        {
+          "id": "SYM_TAG_1502",
+          "description": "萌芽延遲/不良 (Delayed/Poor Sprouting)"
+        }
+      ]
+    }
+  ]
+}
